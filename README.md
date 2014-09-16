@@ -3,58 +3,7 @@ mwmckenna.github.io
 <!DOCTYPE html>
 <head>
 	<script src="/assets/jquery.js"></script>
-	<style>
-		body{
-			background: rgba(20, 20, 30, 1);
-			color: white;
-			max-width: 800px;
-		}
-		.TopRight {
-			position: relative;
-			left: 95%;
-			top: 10%;
-		}
-		h1 {
-			position: relative;
-			top: -200px;
-			padding: 0 0 0 30px;
-			margin: 0 0 10px 0;
-		}
-		.AboutMe {
-			position: relative;
-			top: -180px;
-			max-width: 700px;
-			padding: 0 0 0 30px;
-			font-size: 22px;
-			text-align: justify;
-		} 
-		.BottomLeft {
-			position: relative;
-			left: 0%;
-			top: -10%;
-		}
-		.Gallery {
-			max-width: 300px;
-			height: 200px;
-			margin: 0px auto;
-			background: white;
-			z-index: -1;
-			left: 50%;
-			padding: -100 0 0 0;
-		}
-		.Mary {
-			position: relative;
-			top: 50%;
-			left: 50%;
-			right: -50%;
-			margin: 0px auto;
-		}
-		.button {
-			position: relative;
-			left: 50%;
-		}
-
-	</style>
+	<link href="style.css" rel="stylesheet">
 	<script>
 		var image = [
 			'http://i.imgur.com/kCL15fa.jpg',
