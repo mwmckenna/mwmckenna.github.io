@@ -1,4 +1,4 @@
 mwmckenna.github.io
 ===================
 
-about me
+Mary McKenna
