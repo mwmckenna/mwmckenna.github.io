@@ -10,19 +10,19 @@ mwmckenna.github.io
 			'http://i.imgur.com/2UyMZpw.jpg?2',
 			'http://imgur.com/zK2qzz4',
 			]
-		var currentImage = 0;
+		var currentimage = 0;
 
 		//Show next image
 		var nextimage=function() {
 		if (currentimage < image.length){
-			currentImage = currentImage + 1;
+			currentimage = currentimage + 1;
 		}}
 		//When button is clicked, show next photo
 		$(".next").click(function () {
-			$("currentImage").show("nextimage");
+			$("currentimage").show("nextimage");
 			}
 		//Show first photo as soon as Javascript loads
-		nextimage();
+		currentimage();
 
 	</script>
 </head>
